@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div className="app">
+      <h1 className="app-header">Todo with React Hooks</h1>
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo key={index} index={index} todo={todo} completeTodo={completeTodo} removeTodo={removeTodo}/>
